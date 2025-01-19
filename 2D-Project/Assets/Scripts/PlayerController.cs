@@ -40,6 +40,8 @@ public class PlayerController : MonoBehaviour
         if (input != Vector2.zero)
         {
             lastInput = input;
+            animator.SetFloat("LastInputX", lastInput.x);
+            animator.SetFloat("LastInputY", lastInput.y);
         }
     }
 
@@ -54,8 +56,5 @@ public class PlayerController : MonoBehaviour
         animator.SetFloat("MoveY", input.y);
 
         animator.SetFloat("Speed", rb.velocity.sqrMagnitude);
-
-        animator.SetFloat("LastInputX", lastInput.x);
-        animator.SetFloat("LastInputY", lastInput.y);
     }
 }

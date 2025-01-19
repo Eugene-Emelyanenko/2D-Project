@@ -41,6 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Ground
+    uniqueID: 1747731459
+    locked: 0
+  - name: Mountain
+    uniqueID: 2946484939
+    locked: 0
+  - name: Decorative
+    uniqueID: 990832115
+    locked: 0
   - name: Player
     uniqueID: 4231965029
     locked: 0
